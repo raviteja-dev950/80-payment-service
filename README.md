@@ -39,7 +39,7 @@ Verified with 6 screenshots interlinked proof:
 
 ## 🏗 Architecture Diagram – Tier 8 Goal – Architecture diagram in README, each service = repo – Interlinked 78 + 79 + 80 – demo6.jpg
 
-[architecture](screenshots/demo6.jpg)
+![architecture](screenshots/demo6.jpg)
 
 ```text
 TIER 8 – ADVANCED BACKEND – MICROSERVICES – INTERLINKED – 78 + 79 + 80 – DUAL ROLE – PARALLEL CONSUMERS
@@ -368,7 +368,7 @@ Verified: demo1 GET RUNNING 8089 Only Port 8089 No 9092 badge – Only 8089 badg
 http://localhost:8089/api/payments
 ```
 
-[demo1](screenshots/demo1.png)
+![demo1](screenshots/demo1.png)
 
 ---
 
@@ -398,7 +398,7 @@ value.serializer = class org.apache.kafka.common.serialization.StringSerializer
 >>> JSON: {"paymentId":"4740b4f6","orderId":"9999","status":"SUCCESS","amount":200.0}
 ```
 
-[demo2](screenshots/demo2.png)
+![demo2](screenshots/demo2.png)
 
 ---
 
@@ -421,7 +421,7 @@ Email sent to customer for order 9999
 ***************************************
 ```
 
-[demo3](screenshots/demo3.png)
+![demo3](screenshots/demo3.png)
 
 ---
 
@@ -433,7 +433,7 @@ Email sent to customer for order 9999
 >>> JSON: {"id":"9999","product":"LAPTOP","qty":2}
 ```
 
-[demo4](screenshots/demo4.png)
+![demo4](screenshots/demo4.png)
 
 ---
 
@@ -446,7 +446,7 @@ C:\Users\Ravi Teja>curl -X POST http://localhost:8087/api/orders -H "Content-Typ
 Order placed: Order{id='9999', product='LAPTOP', qty=2}
 ```
 
-[demo5](screenshots/demo5.png)
+![demo5](screenshots/demo5.png)
 
 ---
 
@@ -454,7 +454,7 @@ Order placed: Order{id='9999', product='LAPTOP', qty=2}
 
 **Tier 8 GitHub Goal Achieved – Architecture diagram in README, each service = repo – Interlinked 78+79+80 – DUAL ROLE – Parallel consumers – Same style 79 demo4.jpg but with 80 added:**
 
-[architecture](screenshots/demo6.jpg)
+![architecture](screenshots/demo6.jpg)
 
 ---
 
@@ -479,7 +479,7 @@ Order placed: Order{id='9999', product='LAPTOP', qty=2}
 - **Add DB – Save payments – JPA MySQL – Tier 2 Java + SQL – ER diagrams, SQL scripts – Payment table:** Payment table paymentId, orderId, status, amount – demo2.png PaymentId=4740b4f6 OrderId=9999 Status=SUCCESS Amount=$200.0 – Same style 79 future DB
 - **Add React Frontend – Fetch payments – Tier 6 Frontend Mastery – React Hooks Axios Tailwind – Screenshots/GIFs – Payment status UI:** Fetch http://localhost:8089/api/payments + http://localhost:8089/api/payments/9999 – Payment status SUCCESS – Same style 79 future React
 
-## 👨💻 Author – 100 Projects Java Full Stack Development and GitHub Profile Roadmap – 80/100 – 6 Demos – Same style as 79
+## 👨💻 Author – 100 Projects Java Full Stack Development and GitHub Profile 
 
 ### Vemula Leela Venkata Ravi Teja
 Java Full Stack Developer
